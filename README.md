@@ -15,7 +15,7 @@
 
 ## Overview
 ​
-### The challenge
+### The Challenge
 ​
 Users should be able to:
 ​
@@ -52,9 +52,9 @@ Acceptance Criteria
 - Solution URL: [https://github.com/AveryCaldwell/password-Generator-JS](https://github.com/AveryCaldwell/password-Generator-JS)
 - Live Site URL: [https://averycaldwell.github.io/password-Generator-JS/](https://averycaldwell.github.io/password-Generator-JS/)
 ​
-## My process
+## My Process
 ​
-### Built with
+### Built With
 ​
 - Semantic HTML5 markup
 - CSS custom properties
@@ -65,9 +65,9 @@ Acceptance Criteria
 ### What I learned
 ​
 - While working on this project, I learned how to store multiple arrays within an object under a single variable name to make it easier to read and more efficient for info retrieval.
-- In regard to spread syntex, I do not currently understand it & need to revisit. It removes dupplicate entries from the array.
-- This is the first time I have used `Math.floor()` and is was used to get random value from an array.
-To see how you can add code snippets, see below:
+- In regard to spread syntax, I do not currently understand it & need to revisit. It removes duplicate entries from the array.
+- This is the first time I have used `Math.floor(Math.random() * charTypeArray.length)` and it was used to get a random value from the charTypeArray array in this example.
+
 
 
 ```js
@@ -138,11 +138,7 @@ var charObj = {
   var charTypeArray = charType.split(",");
   var uniqArray = [...new Set(charTypeArray)];
   charTypeArray = uniqArray;
-  if (charType.indexOf(" ") !== -1) {
-    alert("Invalid character type input. Please try again.");
-    charTypeArray = false;
-    return charTypeArray;
-  }
+
 ```
 ​
 ```js
@@ -181,7 +177,7 @@ Avery Caldwell
 ​
 ## Acknowledgments
 ​
-I found information on [Stack Overflow](https://stackoverflow.com/) for creating a unique array. It utilized set function and spread notation. 
+I found information on [Stack Overflow](https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array) for creating a unique array. It utilized set function and spread notation. 
 
 ​
 
