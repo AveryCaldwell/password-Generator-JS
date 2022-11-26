@@ -160,7 +160,7 @@ function passwordGenerator(passLength, charTypeArray) {
 ​
 ### Continued development
 ​
-​I want to further my understanding of `Math.random()` because it is a useful tool for random generation. I would also like to better understand the `Set object` because of the multiple useful methods and ability to store unique values.
+​I want to further my understanding of `Math.random()` because it is a useful tool for random generation. I would also like to better understand the `Set object` because of the multiple useful methods and ability to store unique values. I overcommented for learning purposes and better understanding.
 ​
 ​
 ### Useful resources
